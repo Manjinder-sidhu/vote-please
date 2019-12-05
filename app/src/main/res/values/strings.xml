@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Vote Please</string>
+    <string-array name="candidates">
+        <item>Choose Candidate</item>
+        <item>Candidate 1</item>
+        <item>Candidate 2</item>
+        <item>Candidate 3</item>
+    </string-array>
+    <string name="candidate1">Candidate 1</string>
+    <string name="candidate2">Candidate 2</string>
+    <string name="candidate3">Candidate 3</string>
+</resources>

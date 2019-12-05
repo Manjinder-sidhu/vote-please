@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Result of Voting"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="Candidate 1 "
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/cand1"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="?attr/colorButtonNormal"
+           />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="Candidate 2"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/cand2"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="?attr/colorButtonNormal"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="Candidate 3"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/cand3"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="?attr/colorButtonNormal"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
